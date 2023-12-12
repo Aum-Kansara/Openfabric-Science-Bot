@@ -30,8 +30,5 @@ def parser(url):
 
 
 if __name__=="__main__":
-    # url="https://spaceplace.nasa.gov/what-is-gravity/en/"
     url="https://en.wikipedia.org/wiki/Gravity"
-    # url="https://en.wikipedia.org/wiki/Force"
-    # url="https://byjus.com/physics/force/"
     print(parser(url))

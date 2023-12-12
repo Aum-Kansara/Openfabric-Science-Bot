@@ -1,6 +1,5 @@
 from transformers import pipeline,BertForQuestionAnswering,AutoTokenizer
 from random import choice
-from bs4 import BeautifulSoup
 from requests import get
 from os import getenv
 from web_parser import parser

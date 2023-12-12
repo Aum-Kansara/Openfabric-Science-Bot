@@ -7,6 +7,9 @@ authors = ["Andrei"]
 [tool.poetry.dependencies]
 python = "^3.8"
 openfabric-pysdk = "0.2.7"
+transformers = "4.36.0"
+beautifulsoup4 = "4.12.2"
+wikipedia = "1.4.0"
 
 
 [tool.poetry.dev-dependencies]
