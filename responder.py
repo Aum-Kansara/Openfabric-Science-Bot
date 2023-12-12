@@ -1,7 +1,6 @@
 from transformers import pipeline,BertForQuestionAnswering,AutoTokenizer
 from random import choice
 from requests import get
-from os import getenv
 from web_parser import parser
 
 SEARCH_ENGINE_ID="d6e0e4194507c4642"
