@@ -23,7 +23,7 @@ def execute(request: SimpleText, ray: Ray, state: State) -> SimpleText:
     output = []
     for text in request.text:
         # TODO Add code here
-        response=getResponse(text)
+        response='Hello'
         output.append(response)
 
     return SchemaUtil.create(SimpleText(), dict(text=output))
